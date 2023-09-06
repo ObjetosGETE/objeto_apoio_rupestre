@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicione a pintura rupestre</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+    <link rel="stylesheet" href="css/rupestre-custom.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="col-10 align-self-start d-block m-auto">
+            <div class="row rupestre-descricao-img"><img src="img/pg2-praticar2-ico.png" alt=""></div>
+            <div class="row rupestre-descricao">
+                <p><strong>Para realizar essa atividade, vamos usar a imaginação!</strong></p>
+            </div>
+        </div>
+        <div>
+            <div class="rupestre-descricao ajuste">
+                <p>A seguir você encontrará uma representação do céu e quatro pinturas rupestres. Cada uma das
+                    pinturas rupestres está associada às observações que o povo fez, em
+                    diferentes períodos, sobre o céu. A partir da sua observação e análise, tente encaixar as
+                    pinturas rupestres na imagem do céu e descubra qual mês a imagem do céu representa.<br>
+                    <strong>Arraste e solte a imagem no espaço abaixo.</strong>
+                </p>
+            </div>
+            <div id="content-rupestre">
+                <div class="container rupestre-body no-print" style="padding:0;">
+                    <div class="row">
+                        <div class="rupestre-itens-container">
+                            <div class="btn-group cor-fonte" id="algumacoisa" role="group" aria-label="Basic radio toggle button group">
+                                <div>
+                                    <input type="radio" class="btn-check btn-rupestre" autocomplete="off">
+                                    <label class="btn btn-outline-primary rupestre classComumParaOsBotoes" data-mes="maio" for="btnradio1" id="btnMaio">
+                                        <img src="img/btn-rupestre-maio.png" class="img-fluid" alt="Pintura rupestre">
+                                        <h6><strong>Maio</strong></h6>
+                                    </label>
+                                </div>
+                                <div>
+                                    <input type="radio" class="btn-check btn-rupestre" autocomplete="off">
+                                    <label class="btn btn-outline-primary rupestre classComumParaOsBotoes" data-mes="agosto"  for="btnradio2" id="btnAgosto">
+                                        <img src="img/btn-rupestre-agosto.png" class="img-fluid" alt="Pintura rupestre">
+                                        <h6><strong>Agosto</strong></h6>
+                                    </label>
+                                </div>
+                                <div>
+                                    <input type="radio" class="btn-check btn-rupestre" autocomplete="off">
+                                    <label class="btn btn-outline-primary rupestre classComumParaOsBotoes" data-mes="setembro"  for="btnradio3" id="btnSetembro">
+                                        <img src="img/btn-rupestre-setembro.png" class="img-fluid" alt="Pintura rupestre">
+                                        <h6><strong>Setembro</strong></h6>
+                                    </label>
+                                </div>
+                                <div>
+                                    <input type="radio" class="btn-check btn-rupestre" autocomplete="off">
+                                    <label class="btn btn-outline-primary rupestre classComumParaOsBotoes" data-mes="outubro" for="btnradio4" id="btnOutubro">
+                                        <img src="img/btn-rupestre-outubro.png" class="img-fluid" alt="Pintura rupestre">
+                                        <h6><strong>outubro</strong></h6>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="card draggable oculto" id="maio">
+                                    <img src="img/drag-rupestre-maio.png" class="img-fluid ajuste-maio" alt="Pintura rupestre">
+                                </div>
+        
+                                <div class="card draggable oculto" id="agosto">
+                                    <img src="img/drag-rupestre-agosto.png" class="img-fluid ajuste-agosto" alt="Pintura rupestre">
+                                </div>
+                                <div class="card draggable oculto" id="setembro">
+                                    <img src="img/drag-rupestre-setembro.png" class="img-fluid ajuste-setembro" alt="Pintura rupestre">
+                                </div>
+                                <div class="card draggable oculto" id="outubro">
+                                    <img src="img/drag-rupestre-outubro.png" class="img-fluid ajuste-outubro" alt="Pintura rupestre">
+                                </div>
+                            </div>
+                            <div style="text-align: center;"><img src="img/bg-ceu.png" class="img-fluid"alt="Céu durante a noite" style="text-align: center;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/rupestre-custom.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    
+</body>
+
+</html>

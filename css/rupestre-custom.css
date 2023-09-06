@@ -1,0 +1,109 @@
+.rupestre-body {
+    background-color: #090b0e;
+    border: 5px solid #fff;
+    border-radius: 20px;
+}
+
+.rupestre-descricao.ajuste {
+    padding: 2%;
+}
+.container {
+    max-width: 900px;
+}
+.rupestre-descricao {
+    background-color: #fff;
+    padding: 20px 0 40px 125px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+.rupestre-descricao-img {
+    position: relative;
+}
+
+.rupestre-itens-container {
+    margin: 0 !important;
+    background-color: #ffbc62;
+    max-width: calc(100% - 24px);
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.rupestre-descricao-img img {
+    width: 150px;
+    position: absolute;
+    top: 0px;
+}
+
+
+.rupestre-descricao p {
+    color: #333 !important;
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: initial;
+    text-align: center;
+}
+
+#content-rupestre {
+    max-width: 99%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.btn-outline-primary.rupestre {
+    --bs-btn-color: #333;
+    --bs-btn-border-color: #ffbc62;
+    --bs-btn-hover-bg: #018085;
+    --bs-btn-hover-border-color: #018085;
+}
+
+.btn-check:active+.btn-rupestre,
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:active {
+    color: var(--bs-btn-active-color);
+    background-color: #018085;
+    border-color: #ffbc62;
+}
+
+.img-fluid.btn-direcional {
+    max-width: 40px;
+    vertical-align: 69px;
+}
+
+.verde {
+    background-color: #018085;
+    color: white;
+}
+
+.oculto {
+    display: none;
+}
+
+.card {
+    max-width: 80%;
+    cursor: all-scroll;
+    border: none;
+    background-position: center;
+    --bs-card-cap-bg: none;
+    --bs-card-bg: none;
+    position: absolute;
+}
+
+.ajuste-maio {
+    max-width: 550px;
+}
+
+.ajuste-agosto {
+    max-width: 600px;
+}
+
+.ajuste-setembro {
+    max-width: 600px;
+}
+
+.ajuste-outubro {
+    max-width: 658px;
+}
